@@ -39,7 +39,7 @@
               android:minHeight="?android:attr/listPreferredItemHeightSmall"
               android:paddingEnd="?dialogPreferredPadding"
               android:paddingRight="?dialogPreferredPadding"
-              android:text="@string/RingtonePreference_add_ringtone_text"
+              android:text="Add Ringtone"
               android:textAppearance="?android:attr/textAppearanceMedium"
               android:textColor="?colorAccent" />
 </LinearLayout>

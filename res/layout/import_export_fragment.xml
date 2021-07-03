@@ -15,7 +15,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
         android:gravity="center_vertical"
-        android:text="@string/ImportExportActivity_import"
+        android:text="Import"
         android:textSize="14sp"
         android:fontFamily="sans-serif-medium"
         android:textColor="@color/signal_primary_dark"/>

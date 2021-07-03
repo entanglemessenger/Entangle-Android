@@ -15,12 +15,13 @@ ant.properties
 build.log
 build-log.xml
 .gradle
-build
+build/
 signing.properties
 library/lib/
 library/obj/
 ffpr
 test/androidTestEspresso/res/values/arrays.xml
 obj/
+play/release
 jni/libspeex/.deps/
 *.sh

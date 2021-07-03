@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               xmlns:app="http://schemas.android.com/apk/res-auto"
-              android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:background="?attachment_type_selector_background">
 
-    <org.thoughtcrime.securesms.components.RecentPhotoViewRail
+    <org.entanglemessenger.entangle.components.RecentPhotoViewRail
             android:id="@+id/recent_photos"
             android:layout_width="match_parent"
             android:layout_height="90dp"
@@ -26,7 +27,7 @@
                       android:gravity="center"
                       android:orientation="vertical">
 
-            <org.thoughtcrime.securesms.components.CircleColorImageView
+            <org.entanglemessenger.entangle.components.CircleColorImageView
                     android:id="@+id/gallery_button"
                     android:layout_width="53dp"
                     android:layout_height="53dp"
@@ -49,7 +50,7 @@
                       android:layout_weight="1"
                       android:orientation="vertical">
 
-            <org.thoughtcrime.securesms.components.CircleColorImageView
+            <org.entanglemessenger.entangle.components.CircleColorImageView
                     android:id="@+id/audio_button"
                     android:layout_width="53dp"
                     android:layout_height="53dp"
@@ -72,7 +73,7 @@
                       android:layout_weight="1"
                       android:orientation="vertical">
 
-            <org.thoughtcrime.securesms.components.CircleColorImageView
+            <org.entanglemessenger.entangle.components.CircleColorImageView
                     android:id="@+id/document_button"
                     android:layout_width="53dp"
                     android:layout_height="53dp"
@@ -95,7 +96,7 @@
                       android:orientation="vertical"
                       android:layout_weight="1">
 
-            <org.thoughtcrime.securesms.components.CircleColorImageView
+            <org.entanglemessenger.entangle.components.CircleColorImageView
                     android:id="@+id/contact_button"
                     android:layout_width="53dp"
                     android:layout_height="53dp"
@@ -129,7 +130,7 @@
                       android:gravity="center"
                       android:orientation="vertical">
 
-            <org.thoughtcrime.securesms.components.CircleColorImageView
+            <org.entanglemessenger.entangle.components.CircleColorImageView
                     android:id="@+id/camera_button"
                     android:layout_width="53dp"
                     android:layout_height="53dp"
@@ -154,7 +155,7 @@
                       android:gravity="center"
                       android:orientation="vertical">
 
-            <org.thoughtcrime.securesms.components.CircleColorImageView
+            <org.entanglemessenger.entangle.components.CircleColorImageView
                     android:id="@+id/location_button"
                     android:layout_width="53dp"
                     android:layout_height="53dp"
@@ -178,20 +179,25 @@
                       android:gravity="center"
                       android:orientation="vertical">
 
-            <org.thoughtcrime.securesms.components.CircleColorImageView
-                    android:id="@+id/giphy_button"
-                    android:layout_width="53dp"
-                    android:layout_height="53dp"
-                    android:src="@drawable/ic_gif_white_24dp"
-                    android:scaleType="center"
-                    android:contentDescription="@string/attachment_type_selector__gif_description"
-                    app:circleColor="@color/cyan_400"/>
+            <org.entanglemessenger.entangle.components.CircleColorImageView
+                android:id="@+id/giphy_button"
+                android:layout_width="53dp"
+                android:layout_height="53dp"
+                android:contentDescription="@string/attachment_type_selector__gif_description"
+                android:scaleType="center"
+                android:src="@drawable/ic_gif_white_24dp"
+                android:visibility="invisible"
+                app:circleColor="@color/cyan_400"
+                tools:visibility="invisible" />
 
-            <TextView android:layout_marginTop="10dp"
-                      android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      style="@style/AttachmentTypeLabel"
-                      android:text="@string/attachment_type_selector__gif"/>
+            <TextView
+                style="@style/AttachmentTypeLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/attachment_type_selector__gif"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
 
         </LinearLayout>
 
@@ -201,7 +207,7 @@
                       android:gravity="center"
                       android:orientation="vertical">
 
-            <org.thoughtcrime.securesms.components.CircleColorImageView
+            <org.entanglemessenger.entangle.components.CircleColorImageView
                     android:id="@+id/close_button"
                     android:layout_width="53dp"
                     android:layout_height="53dp"

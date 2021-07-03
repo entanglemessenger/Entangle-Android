@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">சமிக்ஞை</string>
+  <string name="app_name">Entangle</string>
   <string name="yes">ஆம்</string>
   <string name="no">இல்லை</string>
   <string name="delete">நீக்கு</string>
@@ -15,13 +15,13 @@
   <string name="ApplicationPreferencesActivity_disable_passphrase">கடவுச்சொல்லை முடக்கு</string>
   <string name="ApplicationPreferencesActivity_disable">முடக்கு</string>
   <string name="ApplicationPreferencesActivity_unregistering">பதிவுநீக்குதல்</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">சமிக்ஞை குறுஞ்செய்தி மற்றும் அழைப்பு பதிவுநீக்கப்படுகிறது ...</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">சமிக்ஞை குறுஞ்செய்தி மற்றும் அழைப்பை முடக்கு ?</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Entangle குறுஞ்செய்தி மற்றும் அழைப்பு பதிவுநீக்கப்படுகிறது ...</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Entangle குறுஞ்செய்தி மற்றும் அழைப்பை முடக்கு ?</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">சர்வருடன் இணைவதில் பிழை!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">குறுஞ்செய்தி செயல்படுத்தப்பட்டது</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">இதை உங்கள் இயல்புநிலை SMS மென்பொருளாக்க தொடவும் </string>
   <string name="ApplicationPreferencesActivity_sms_disabled">குறுஞ்செய்தி முடக்கப்பட்டது</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">சமிக்ஞையை இயல்புநிலை குறுஞ்செய்தி மென்பொருளாக்க தொடவும்</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Entangleயை இயல்புநிலை குறுஞ்செய்தி மென்பொருளாக்க தொடவும்</string>
   <string name="ApplicationPreferencesActivity_on">இயக்க</string>
   <string name="ApplicationPreferencesActivity_On">இயக்க</string>
   <string name="ApplicationPreferencesActivity_off">அணை</string>
@@ -52,7 +52,7 @@
   <!--ContactsCursorLoader-->
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">செய்தி %s</string>
-  <string name="ContactsDatabase_signal_call_s"> சிக்னல் அழைப்பு %s</string>
+  <string name="ContactsDatabase_signal_call_s"> Entangle அழைப்பு %s</string>
   <!--ContactNameEditActivity-->
   <!--ContactShareEditActivity-->
   <!--ConversationItem-->
@@ -82,8 +82,8 @@
   <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">நீங்கள் குழுவை விட்டு நிச்சயமாக விலகவேண்டுமா?</string>
   <string name="ConversationActivity_transport_insecure_sms">பாதுகாப்பற்ற SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">பாதுகாப்பற்ற MMS</string>
-  <string name="ConversationActivity_transport_signal">சமிக்ஞை</string>
-  <string name="ConversationActivity_lets_switch_to_signal">%1$s நாம் சமிக்ஞைக்கு மாறுவோம்</string>
+  <string name="ConversationActivity_transport_signal">Entangle</string>
+  <string name="ConversationActivity_lets_switch_to_signal">%1$s நாம் Entangleக்கு மாறுவோம்</string>
   <string name="ConversationActivity_lets_use_this_to_chat">நாம் அரட்டையடிக்க இதை பயன்படுத்துவோம்: %1$s</string>
   <string name="ConversationActivity_specify_recipient">தயவு செய்து ஒரு தொடர்பை தேர்ந்தெடு</string>
   <string name="ConversationActivity_unblock">தடுப்புநீக்க</string>
@@ -102,7 +102,7 @@
   <string name="ConversationFragment_save_to_sd_card">சேமிப்பில் சேர்க்கவேண்டுமா?</string>
   <string name="ConversationFragment_unable_to_write_to_sd_card_exclamation">சேமிப்பில் சேர்க இயலவில்லை!</string>
   <string name="ConversationFragment_pending">நிலுவையில் உள்ளது...</string>
-  <string name="ConversationFragment_push">தரவு (சமிக்ஞை)</string>
+  <string name="ConversationFragment_push">தரவு (Entangle)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">நீக்கப்படுகிறது</string>
@@ -151,15 +151,15 @@
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">பகிர்</string>
   <!--ExperienceUpgradeActivity-->
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">சமிக்ஞைக்கு வரவேற்கிறது.</string>
-  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">சமிக்ஞைக்கு வரவேற்கிறது!</string>
-  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">TextSecure தற்ப்போது சமிக்ஞை</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_dgaf">Entangleக்கு வரவேற்கிறது.</string>
+  <string name="ExperienceUpgradeActivity_welcome_to_signal_excited">Entangleக்கு வரவேற்கிறது!</string>
+  <string name="ExperienceUpgradeActivity_textsecure_is_now_signal">Entangleக்கு வரவேற்கிறது!</string>
   <!--ExportFragment-->
   <string name="ExportFragment_export">ஏற்றுமதி செய்</string>
   <string name="ExportFragment_cancel">ரத்து</string>
   <string name="ExportFragment_exporting">ஏற்றுமதி செய்யப்படுகிறது</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Google Play சேவை உடன் TextSecure-ஐ பதிவு செய்ய இயலவில்லை. இணையதளம் வழியாக தொடர்புடையாடல் முடக்கப்பட்டுள்ளது, TextSecure அமைப்புகள் மெனுவில் மறுபதிவுச்செய்ய முயற்சிக்கவும்</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Entangleக்கு வரவேற்கிறது!</string>
   <!--GiphyActivity-->
   <!--GiphyFragmentPageAdapter-->
   <!--GroupCreateActivity-->
@@ -198,21 +198,21 @@
   <string name="InviteActivity_sending">அனுப்படுகிறது...</string>
   <string name="InviteActivity_heart_content_description">இதயம்</string>
   <string name="InviteActivity_invitations_sent">அழைப்புகள் அனுப்பட்டது!</string>
-  <string name="InviteActivity_invite_to_signal">சமிக்ஞைக்கு அழை</string>
-  <string name="InviteActivity_lets_switch_to_signal">%1$s: நாம் சமிக்ஞைக்கு மாறுவோம்</string>
+  <string name="InviteActivity_invite_to_signal">Entangleக்கு அழை</string>
+  <string name="InviteActivity_lets_switch_to_signal">%1$s: நாம் Entangleக்கு மாறுவோம்</string>
   <!--KeyScanningActivity-->
   <!--MessageDetailsRecipient-->
   <string name="MessageDetailsRecipient_failed_to_send">அனுப்ப முடியவில்லை</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">சமிக்ஞை</string>
+  <string name="MessageRetrievalService_signal">Entangle</string>
   <!--MmsDownloader-->
   <!--MediaOverviewActivity-->
   <string name="MediaOverviewActivity_Media_delete_progress_title">நீக்கப்படுகிறது</string>
   <string name="MediaOverviewActivity_Media_delete_progress_message">செய்திகள் நீக்கப்படுகிறது...</string>
   <!--- NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">சமிக்ஞை அழைப்புப் போய்க்கொண்டிருக்கிறது</string>
-  <string name="NotificationBarManager__establishing_signal_call">சமிக்ஞை அழைப்பு நிறுவுப்படுகிறது</string>
-  <string name="NotificationBarManager__incoming_signal_call">உள்வரும் சமிக்ஞை அழைப்பு</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Entangle அழைப்புப் போய்க்கொண்டிருக்கிறது</string>
+  <string name="NotificationBarManager__establishing_signal_call">Entangle அழைப்பு நிறுவுப்படுகிறது</string>
+  <string name="NotificationBarManager__incoming_signal_call">உள்வரும் Entangle அழைப்பு</string>
   <string name="NotificationBarManager__deny_call">அழைப்பை மறுதளி</string>
   <string name="NotificationBarManager__answer_call">அழைப்பை எடு</string>
   <string name="NotificationBarManager__end_call">அழைப்பைத் துண்டி</string>
@@ -282,10 +282,10 @@
   <string name="RingtonePreference_ringtone_silent">எதுவும் இல்லை</string>
   <!--Search-->
   <!--SharedContactDetailsActivity-->
-  <string name="SharedContactDetailsActivity_invite_to_signal">சமிக்ஞைக்கு அழை</string>
-  <string name="SharedContactDetailsActivity_invite_message">%1$s: நாம் சமிக்ஞைக்கு மாறுவோம்</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Entangleக்கு அழை</string>
+  <string name="SharedContactDetailsActivity_invite_message">%1$s: நாம் Entangleக்கு மாறுவோம்</string>
   <!--SharedContactView-->
-  <string name="SharedContactView_invite_to_signal">சமிக்ஞைக்கு அழை</string>
+  <string name="SharedContactView_invite_to_signal">Entangleக்கு அழை</string>
   <!--Slide-->
   <string name="Slide_image">உருவம்</string>
   <string name="Slide_audio">ஒலி</string>
@@ -347,7 +347,7 @@
   <!--SearchToolbar-->
   <string name="SearchToolbar_search">தேடல்</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">சமிக்ஞை</string>
+  <string name="SingleRecipientNotificationBuilder_signal">Entangle</string>
   <string name="SingleRecipientNotificationBuilder_new_message">புதிய செய்தி</string>
   <!--UnauthorizedReminder-->
   <!--VideoPlayer-->
@@ -563,7 +563,7 @@
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">அழை</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">சமிக்ஞை அழைப்பு</string>
+  <string name="conversation_callable_secure__menu_call">Entangle அழைப்பு</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">செய்தி விவரங்கள்</string>
   <string name="conversation_context__menu_copy_text">உரை நகலெடு</string>
@@ -612,7 +612,7 @@
   <string name="text_secure_normal__help">உதவி</string>
   <!--verify_display_fragment-->
   <!--reminder_header-->
-  <string name="reminder_header_invite_title">சமிக்ஞைக்கு அழை</string>
+  <string name="reminder_header_invite_title">Entangleக்கு அழை</string>
   <string name="reminder_header_share_title">நண்பர்களை அழைக்கவும்</string>
   <!--media_preview-->
   <string name="media_preview__save_title">சேமி</string>
